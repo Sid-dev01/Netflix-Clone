@@ -1,0 +1,876 @@
+<html>
+  <head>
+    <title>Netflix</title>
+
+    <!-- Linking of CSS(Cascading Style Sheet) -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Bootstrap CDN of CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap CDN of javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap CDN of icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <style>
+      /* Top Part */
+    </style>
+  </head>
+  <body>
+    <div class="fullbody">
+      <!-- Top Part -->
+      <div class="top-part">
+        <div class="navigation-bar">
+          <div class="align-middle netflix">
+            <img
+              src="./Images/netflix-logo.png"
+              alt="netflix-logo"
+              style="height: 85px"
+            />
+          </div>
+
+          <div class="align-middle right">
+            <i class="bi bi-translate language-icon"></i>
+
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle align-middle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                style="
+                  padding-left: 2.5rem;
+                  background: transparent;
+                  padding-right: 1rem;
+                  padding-top: 5px;
+                  margin-right: 1.5rem;
+                "
+              >
+                English
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">English</a></li>
+                <li><a class="dropdown-item" href="#">Hindi</a></li>
+              </ul>
+            </div>
+
+            <button class="btn btn-danger">Sign In</button>
+          </div>
+        </div>
+
+        <div class="center-part">
+          <div>
+            <h3
+              class="text-wrap"
+              style="font-size: 3.5rem; font-weight: 700; text-align: center"
+            >
+              Unlimited movies, TV shows and more
+            </h3>
+          </div>
+
+          <div style="font-size: 1.5rem; font-weight: 400; margin-top: 0.5rem">
+            <p>Watch anywhere. Cancel anytime.</p>
+          </div>
+
+          <div
+            style="
+              font-size: 1.25rem;
+              line-height: 1.5rem;
+              font-weight: 400;
+              margin-bottom: 1.5rem;
+            "
+          >
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </div>
+
+          <div class="dataman">
+            <div class="form-floating mb-3" style="display: flex">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+                style="
+                  background-color: rgba(14, 14, 14, 0.742);
+                  opacity: 60%;
+                  padding-right: 4rem;
+                "
+              />
+              <label
+                for="floatingInput"
+                id="emailaddress"
+                style="color: rgb(181, 177, 177); background-color: initial"
+                >Email address</label
+              >
+              <button
+                type="button"
+                class="btn btn-danger"
+                style="width: 20rem; margin-left: 0.5rem; font-size: 1.5rem"
+              >
+                Get Started &gt
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TV Section -->
+      <div
+        class="borderman"
+        style="background-color: rgb(0, 0, 0); height: auto"
+      >
+        <div class="mainplayer">
+          <div class="leftcontent-section">
+            <h3 style="color: white; font-size: 3rem; font-weight: 900">
+              Enjoy on your TV
+            </h3>
+            <p style="color: white; font-size: 1.5rem; font-weight: 400">
+              Watch on smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+              Blu-ray players and more.
+            </p>
+          </div>
+
+          <div>
+            <div
+              class="pb-50"
+              style="
+                position: absolute;
+                height: auto;
+                width: 28%;
+                margin-top: 4.9rem;
+                margin-left: 4.5rem;
+              "
+            >
+              <video
+                src="./Videos/video-tv-in-0819.m4v"
+                autoplay
+                muted
+                loop
+              ></video>
+            </div>
+            <img
+              src="./Images/tv.png"
+              alt="TV Image"
+              height="450px;"
+              style="position: relative; z-index: 1"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Smart Phone Section -->
+      <div
+        class="borderman"
+        style="background-color: rgb(0, 0, 0); height: 600px"
+      >
+        <div class="mainplayer">
+          <div style="padding-bottom: 3rem">
+            <img src="./Images/mobile.jpg" alt="Smart-Phone-Image" />
+            <div
+              style="
+                height: 5%;
+                width: 55%;
+                position: relative;
+                background-color: black;
+                border: 1px solid white;
+                border-radius: 10px;
+                bottom: 16rem;
+                margin-top: 5rem;
+                margin-left: 9rem;
+              "
+            >
+              <div style="display: flex">
+                <img
+                  src="./Images/strangers things.png"
+                  alt="Stranger things"
+                  style="
+                    border-radius: 10px, 0px, 0px, 10px !important;
+                    height: 5rem;
+                    margin-left: 10px;
+                    margin-top: 5 px;
+                  "
+                />
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    margin-left: 16px;
+                  "
+                >
+                  <h3
+                    style="
+                      color: white;
+                      font-size: 1rem;
+                      margin-bottom: 0px;
+                      text-align: left;
+                    "
+                  >
+                    Stranger Things
+                  </h3>
+                  <h3 style="color: #0071eb; font-size: 1rem; text-align: left">
+                    Downloading...
+                  </h3>
+                </div>
+                <img
+                  src="./Images/download.gif"
+                  alt="Downloading gif"
+                  style="height: 4rem; margin-left: 4rem; margin-top: 10px"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="rightcontent-section" style="padding-bottom: 3rem">
+            <h3 style="color: white; font-size: 3rem; font-weight: 900">
+              Download your shows to watch offline
+            </h3>
+            <p style="color: white; font-size: 1.5rem; font-weight: 400">
+              Save your favourites easily and always have something to watch.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desktop Section -->
+      <div class="borderman" style="background-color: rgb(0, 0, 0)">
+        <div class="mainplayer">
+          <div class="leftcontent-section">
+            <h3 style="color: white; font-size: 3rem; font-weight: 900">
+              Watch everywhere
+            </h3>
+            <p style="color: white; font-size: 1.5rem; font-weight: 400">
+              Stream unlimited movies and TV shows on your phone, tablet,
+              laptop, and TV.
+            </p>
+          </div>
+
+          <div style="width: auto; height: auto">
+            <div style="position: absolute">
+              <video
+                src="./Videos/video-devices-in (1).m4v"
+                loop
+                muted
+                autoplay
+                style="width: 60%; margin-top: 3rem; margin-left: 6rem"
+              ></video>
+            </div>
+            <img
+              src="./Images/device-pile-in.png"
+              alt=""
+              height="400px"
+              style="position: relative"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Children Section -->
+      <div class="borderman" style="background-color: rgb(0, 0, 0)">
+        <div class="mainplayer">
+          <div>
+            <img src="./Images/children.png" alt="" />
+          </div>
+
+          <div class="childrencontent-section">
+            <h3 style="color: white; font-size: 3rem; font-weight: 900">
+              Create profiles for kids
+            </h3>
+            <p style="color: white; font-size: 1.5rem; font-weight: 400">
+              Send children on adventures with their favourite characyers in a
+              space made just for them-free with your membership.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Frequently Asked Question -->
+      <div
+        class="borderman"
+        style="background-color: rgb(0, 0, 0); height: auto"
+      >
+        <!-- FAQ -->
+
+        <div
+          class="frequently"
+          style="
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            height: auto;
+          "
+        >
+          <h3
+            style="
+              font-size: 3rem;
+              font-weight: 900;
+              color: white;
+              margin-top: 5rem;
+            "
+          >
+            Frequently Asked Questions
+          </h3>
+        </div>
+
+        <!-- Accordian Div  -->
+        <div style="width: 100%">
+          <!-- Each Accordion  -->
+          <div style="margin-left: 11rem; margin-right: 11rem">
+            <!-- Main Accordion heading -->
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <!-- First accordion  -->
+              <div class="accordion-item" style="margin-bottom: 10px">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                    style="
+                      background-color: rgb(45, 45, 45);
+                      color: white;
+                      padding-bottom: 1.5rem;
+                      padding-top: 1.5rem;
+                      font-size: 1.5rem;
+                    "
+                  >
+                    What is Netflix?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div
+                    class="accordion-body"
+                    style="
+                      font-size: 1.5rem;
+                      color: white;
+                      background-color: rgb(45, 45, 45);
+                      font-size: 1.5rem;
+                    "
+                  >
+                    Netflix is a streaming service that offers a variety of
+                    award-winning TV shows, movies, anime, documentaries and
+                    more-on thousands of internet-connected devices. <br />
+                    <br />
+                    You can watch as much as you want, whenever you want,
+                    without a single ad-all for one low monthly price. There's
+                    always something new to discover, and new TV shows and
+                    movies are added every week!
+                  </div>
+                </div>
+              </div>
+
+              <!-- Second accordion  -->
+              <div class="accordion-item" style="margin-bottom: 10px">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                    style="
+                      background-color: rgb(45, 45, 45);
+                      color: white;
+                      padding-bottom: 1.5rem;
+                      padding-top: 1.5rem;
+                      font-size: 1.5rem;
+                    "
+                  >
+                    How much does Netflix cost?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div
+                    class="accordion-body"
+                    style="
+                      font-size: 1.5rem;
+                      color: white;
+                      background-color: rgb(45, 45, 45);
+                      font-size: 1.5rem;
+                    "
+                  >
+                    Watch Netflix on your smartphone, tablet, Smart TV, laptop,
+                    or streaming device, all for one fixed monthly fee. Plans
+                    range from ₹149 to ₹649 a month. No extra costs, no
+                    contracts.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Third Accordion  -->
+              <div class="accordion-item" style="margin-bottom: 10px">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                    style="
+                      background-color: rgb(45, 45, 45);
+                      color: white;
+                      padding-bottom: 1.5rem;
+                      padding-top: 1.5rem;
+                      font-size: 1.5rem;
+                    "
+                  >
+                    Where can i watch?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div
+                    class="accordion-body"
+                    style="
+                      font-size: 1.5rem;
+                      color: white;
+                      background-color: rgb(45, 45, 45);
+                      font-size: 1.5rem;
+                    "
+                  >
+                    Watch anywhere, anytime. Sign in with your Netflix account
+                    to watch instantly on the web at netflix.com from your
+                    personal computer or on any internet-connected device that
+                    offers the Netflix app, including smart TVs, smartphones,
+                    tablets, streaming media players and game consoles. <br />
+                    <br />
+                    You can also download your favourite shows with the iOS,
+                    Android, or Windows 10 app. Use downloads to watch while
+                    you're on the go and without an internet connection. Take
+                    Netflix with you anywhere.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Fourth Accordion  -->
+              <div class="accordion-item" style="margin-bottom: 10px">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFourth"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFourth"
+                    style="
+                      background-color: rgb(45, 45, 45);
+                      color: white;
+                      padding-bottom: 1.5rem;
+                      padding-top: 1.5rem;
+                      font-size: 1.5rem;
+                    "
+                  >
+                    How does i cancel?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFourth"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div
+                    class="accordion-body"
+                    style="
+                      font-size: 1.5rem;
+                      color: white;
+                      background-color: rgb(45, 45, 45);
+                      font-size: 1.5rem;
+                    "
+                  >
+                    Netflix is flexible. There are no annoying contracts and no
+                    commitments. You can easily cancel your account online in
+                    two clicks. There are no cancellation fees – start or stop
+                    your account anytime.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Fifth Div  -->
+              <div class="accordion-item" style="margin-bottom: 10px">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFifth"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFifth"
+                    style="
+                      background-color: rgb(45, 45, 45);
+                      color: white;
+                      padding-bottom: 1.5rem;
+                      padding-top: 1.5rem;
+                      font-size: 1.5rem;
+                    "
+                  >
+                    What can i watch on Netflix?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFifth"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div
+                    class="accordion-body"
+                    style="
+                      font-size: 1.5rem;
+                      color: white;
+                      background-color: rgb(45, 45, 45);
+                      font-size: 1.5rem;
+                    "
+                  >
+                    Netflix has an extensive library of feature films,
+                    documentaries, TV shows, anime, award-winning Netflix
+                    originals, and more. Watch as much as you want, anytime you
+                    want.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Sixth  Div  -->
+              <div class="accordion-item" style="margin-bottom: 10px">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSixth"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSixth"
+                    style="
+                      background-color: rgb(45, 45, 45);
+                      color: white;
+                      padding-bottom: 1.5rem;
+                      padding-top: 1.5rem;
+                      font-size: 1.5rem;
+                    "
+                  >
+                    Is Netflix good for kids?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSixth"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div
+                    class="accordion-body"
+                    style="
+                      font-size: 1.5rem;
+                      color: white;
+                      background-color: rgb(45, 45, 45);
+                      font-size: 1.5rem;
+                    "
+                  >
+                    The Netflix Kids experience is included in your membership
+                    to give parents control while kids enjoy family-friendly TV
+                    shows and films in their own space. <br />
+                    <br />
+                    Kids profiles come with PIN-protected parental controls that
+                    let you restrict the maturity rating of content kids can
+                    watch and block specific titles you don’t want kids to see.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- End of each accordion  -->
+          </div>
+
+          <!-- End of Accordion div  -->
+        </div>
+
+        <!-- Below Accordion  -->
+        <div
+          style="
+            width: 100%;
+            display: inline-table;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 3rem;
+          "
+        >
+          <div
+            style="
+              font-size: 1.25rem;
+              line-height: 1.5rem;
+              font-weight: 400;
+              color: white;
+              padding-top: 2.5rem;
+              text-align: center;
+            "
+          >
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </div>
+
+          <div
+            style="
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              margin-top: 1.5rem;
+            "
+          >
+            <div class="form-floating mb-3" style="display: flex">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+                style="
+                  background-color: rgba(54, 49, 49, 0.742);
+                  opacity: 60%;
+                  padding-right: 4rem;
+                "
+              />
+              <label
+                for="floatingInput"
+                id="emailaddress"
+                style="color: rgb(181, 177, 177)"
+                >Email address</label
+              >
+              <button
+                type="button"
+                class="btn btn-danger"
+                style="
+                  width: 20rem;
+                  margin-left: 0.5rem;
+                  font-size: 1.5rem;
+                  font-weight: 500;
+                "
+              >
+                Get Started &gt
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="borderman" style="background-color: rgb(0, 0, 0)">
+        <div class="mainplayer">
+          <div class="footerman">
+            <div>
+              <p style="color: #ffffffb3">
+                Questions? Call
+                <a href="" style="text-decoration: none; color: #ffffffb3"
+                  ><u>0008009191694</u></a
+                >
+              </p>
+
+              <div class="detailsman">
+                <div class="problemman">
+                  <a
+                    href=""
+                    style="
+                      text-decoration: none;
+                      color: #ffffffb3;
+                      padding-bottom: 10px;
+                    "
+                    ><u>FAQ</u></a
+                  >
+                  <a
+                    href=""
+                    style="
+                      text-decoration: none;
+                      color: #ffffffb3;
+                      padding-bottom: 10px;
+                    "
+                    ><u>Investor Relations</u></a
+                  >
+                  <a
+                    href=""
+                    style="
+                      text-decoration: none;
+                      color: #ffffffb3;
+                      padding-bottom: 10px;
+                    "
+                    ><u>Privacy</u></a
+                  >
+                  <a
+                    href=""
+                    style="
+                      text-decoration: none;
+                      color: #ffffffb3;
+                      padding-bottom: 10px;
+                    "
+                    ><u>Speed Test</u></a
+                  >
+                </div>
+
+                <div class="problemman">
+                  <a
+                    href=""
+                    style="
+                      text-decoration: none;
+                      color: #ffffffb3;
+                      padding-bottom: 10px;
+                    "
+                    ><u>Help Centre</u></a
+                  >
+                  <a
+                    href=""
+                    style="
+                      text-decoration: none;
+                      color: #ffffffb3;
+                      padding-bottom: 10px;
+                    "
+                    ><u>Jobs</u></a
+                  >
+                  <a
+                    href=""
+                    style="
+                      text-decoration: none;
+                      color: #ffffffb3;
+                      padding-bottom: 10px;
+                    "
+                    ><u>Cookie Preferences</u></a
+                  >
+                  <a
+                    href=""
+                    style="
+                      text-decoration: none;
+                      color: #ffffffb3;
+                      padding-bottom: 10px;
+                    "
+                    ><u>Legal Notices</u></a
+                  >
+                </div>
+
+                <div class="problemman">
+                  <a
+                    href=""
+                    style="
+                      text-decoration: none;
+                      color: #ffffffb3;
+                      padding-bottom: 10px;
+                    "
+                    ><u>Account</u></a
+                  >
+                  <a
+                    href=""
+                    style="
+                      text-decoration: none;
+                      color: #ffffffb3;
+                      padding-bottom: 10px;
+                    "
+                    ><u>Ways to Watch</u></a
+                  >
+                  <a
+                    href=""
+                    style="
+                      text-decoration: none;
+                      color: #ffffffb3;
+                      padding-bottom: 10px;
+                    "
+                    ><u>Corporate Information</u></a
+                  >
+                  <a
+                    href=""
+                    style="
+                      text-decoration: none;
+                      color: #ffffffb3;
+                      padding-bottom: 10px;
+                    "
+                    ><u>Only on Netflix</u></a
+                  >
+                </div>
+
+                <div class="problemman">
+                  <a
+                    href=""
+                    style="
+                      text-decoration: none;
+                      color: #ffffffb3;
+                      padding-bottom: 10px;
+                    "
+                    ><u>Media Centre</u></a
+                  >
+                  <a
+                    href=""
+                    style="
+                      text-decoration: none;
+                      color: #ffffffb3;
+                      padding-bottom: 10px;
+                    "
+                    ><u>Terms of Use</u></a
+                  >
+                  <a
+                    href=""
+                    style="
+                      text-decoration: none;
+                      color: #ffffffb3;
+                      padding-bottom: 10px;
+                    "
+                    ><u>Contact Us</u></a
+                  >
+                </div>
+              </div>
+
+              <div>
+                <i class="bi bi-translate language-logo"></i>
+
+                <div class="dropdown">
+                  <button
+                    class="btn btn-secondary dropdown-toggle align-middle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    style="
+                      padding-left: 2.5rem;
+                      background: transparent;
+                      padding-right: 1rem;
+                      padding-top: 5px;
+                      margin-right: 1.5rem;
+                    "
+                  >
+                    English
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                    <li><a class="dropdown-item" href="#">Hindi</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <p style="color: #ffffffb3; margin-top: 1.5rem">Netflix India</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
