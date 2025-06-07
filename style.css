@@ -1,6 +1,6 @@
 /* Top Part */
 .top-part{
-    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.853) 0, rgba(0, 0, 0, 0.245) 60%, rgb(0, 0, 0) 100%), url(../Images/netflix\ background.jpg);
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.853) 0, rgba(0, 0, 0, 0.245) 60%, rgb(0, 0, 0) 100%), url(./Images/netflix\ background.jpg);
     background-position-x: 38%;
     background-position-y: 70%;
     height:700px;
